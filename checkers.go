@@ -68,7 +68,7 @@ func (info *CheckerInfo) Info() *CheckerInfo {
 // -----------------------------------------------------------------------
 // Not checker logic inverter.
 
-// The Not checker inverts the logic of the provided checker.  The
+// checker inverts the logic of the provided checker.  The
 // resulting checker will succeed where the original one failed, and
 // vice-versa.
 //
